@@ -75,11 +75,10 @@ class Tabs {
 
   getTab(data) {
     // use the tab item classname and the data attribute to select the proper tab
-    return this.element.querySelector(`.Tabs__item[data-tab="${data}"]`);
+    return this.element.querySelectorAll(`.Tabs__item[data-tab]="${data}"`);
   }
 
 }
 
 let tabs = document.querySelectorAll(".Tabs");
 tabs = Array.from(tabs).map(tabs => new Tabs(tabs));
-console.log(tabs);

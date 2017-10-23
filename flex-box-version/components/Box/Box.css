@@ -9,15 +9,14 @@
 }
 
 .Box--lightblue {
-  background-color: lightblue;
+  background-color: cornflowerblue;
 }
 
-
 .Box--green {
-  background-color: cornflowerblue;
+  background-color: lightblue;
 
 }
 
 .Box--yellow {
-  background-color: rgb(66, 190, 250);
+  background-color: lightgray;
 }
